@@ -1,0 +1,12 @@
+# DO NOT DELETE
+
+/home/aitor/workspace/gcov-module/base/Debug/arch/sparcv7/gcov-io.o: /usr/include/string.h
+/home/aitor/workspace/gcov-module/base/Debug/arch/sparcv7/gcov-io.o: /usr/include/features.h
+/home/aitor/workspace/gcov-module/base/Debug/arch/sparcv7/gcov-io.o: /usr/include/sys/cdefs.h
+/home/aitor/workspace/gcov-module/base/Debug/arch/sparcv7/gcov-io.o: /usr/include/bits/wordsize.h
+/home/aitor/workspace/gcov-module/base/Debug/arch/sparcv7/gcov-io.o: /usr/include/gnu/stubs.h
+/home/aitor/workspace/gcov-module/base/Debug/arch/sparcv7/gcov-io.o: /usr/include/gnu/stubs-32.h
+/home/aitor/workspace/gcov-module/base/Debug/arch/sparcv7/gcov-io.o: /home/aitor/workspace/gcov-module/base/include/arch/gcov-io.h
+/home/aitor/workspace/gcov-module/base/Debug/arch/sparcv7/gcov-io.o: /home/aitor/workspace/gcov-module/base/include/gcov-iov.h
+/home/aitor/workspace/gcov-module/base/Debug/arch/sparcv7/gcov-io.o: interface.h
+/home/aitor/workspace/gcov-module/base/Debug/arch/sparcv7/interface.o: interface.h

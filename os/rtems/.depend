@@ -1,0 +1,17 @@
+# DO NOT DELETE
+
+/home/aitor/workspace/gcov-module/base/Debug/os/rtems/wrapper.o: /usr/include/stdio.h
+/home/aitor/workspace/gcov-module/base/Debug/os/rtems/wrapper.o: /usr/include/features.h
+/home/aitor/workspace/gcov-module/base/Debug/os/rtems/wrapper.o: /usr/include/sys/cdefs.h
+/home/aitor/workspace/gcov-module/base/Debug/os/rtems/wrapper.o: /usr/include/bits/wordsize.h
+/home/aitor/workspace/gcov-module/base/Debug/os/rtems/wrapper.o: /usr/include/gnu/stubs.h
+/home/aitor/workspace/gcov-module/base/Debug/os/rtems/wrapper.o: /usr/include/gnu/stubs-32.h
+/home/aitor/workspace/gcov-module/base/Debug/os/rtems/wrapper.o: /usr/include/bits/types.h
+/home/aitor/workspace/gcov-module/base/Debug/os/rtems/wrapper.o: /usr/include/bits/typesizes.h
+/home/aitor/workspace/gcov-module/base/Debug/os/rtems/wrapper.o: /usr/include/libio.h
+/home/aitor/workspace/gcov-module/base/Debug/os/rtems/wrapper.o: /usr/include/_G_config.h
+/home/aitor/workspace/gcov-module/base/Debug/os/rtems/wrapper.o: /usr/include/wchar.h
+/home/aitor/workspace/gcov-module/base/Debug/os/rtems/wrapper.o: /usr/include/bits/wchar.h
+/home/aitor/workspace/gcov-module/base/Debug/os/rtems/wrapper.o: /usr/include/gconv.h
+/home/aitor/workspace/gcov-module/base/Debug/os/rtems/wrapper.o: /usr/include/bits/stdio_lim.h
+/home/aitor/workspace/gcov-module/base/Debug/os/rtems/wrapper.o: /usr/include/bits/sys_errlist.h

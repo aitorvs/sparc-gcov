@@ -1,0 +1,4 @@
+# DO NOT DELETE
+
+/home/aitor/workspace/gcov-module/base/Debug/lib/libgcov.o: /home/aitor/workspace/gcov-module/base/include/arch/gcov-io.h
+/home/aitor/workspace/gcov-module/base/Debug/lib/libgcov.o: /home/aitor/workspace/gcov-module/base/include/gcov-iov.h
