@@ -1,6 +1,6 @@
 # sparc-gcov
 
-GCOV is an open source tool that can be used in conjunction with GCC to test code coverage in applications. 
+GCOV is an open source tool that can be used together with GCC to test code coverage in applications. 
 
 The tool is widely spread, used and maintained and this project ported it to SPARC architecture, in particular to the processors used for space applications (ERC32/LEON2-3)
 
@@ -9,7 +9,7 @@ The usage does not deviate a lot from the normal usage of GCOV.
 
 ## Usage guidelines
 
-1. Library compilation
+### Library compilation
 
 The compilation of the library is pretty simple.
 
@@ -21,7 +21,7 @@ make
 Those to lines will compile the library and leave in the directory ```build``` a series of static libraries dubbed libgcov_rtems_leon[2/3].a that will need to be linked with the application under test
 
 
-2. Application Configuration
+### Application Configuration
 
 The application to be tested for coverage should first be configured. For that the following should be defined
 
@@ -70,6 +70,19 @@ The following flags should be added:
 The application under test shall be linked with one of the libraries generated during the compilation of the GCOV module (step above)
 
 The application shall wrap the ```Init``` function of RTEMS, for that ```--wrap``` shall be used.
+
+### Application execution and coverage trace
+
+The appliation under test will be executed normally, the only difference is upon exit, it will dump all the coverage traces to the serial port (or to a file if using a simulator like TSIM).
+
+When testing an application in a real embedded environment, the application output can be received/saved using a tool like ```minicom```.
+
+```
+$> minicom -C coverageOutput.txt
+```
+
+The output trace can be intepreted using other tools like ```LCOV```.
+
 
 
 You should be now ready to test coverage.
