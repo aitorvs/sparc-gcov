@@ -411,7 +411,7 @@ extern void __gcov_merge_delta (gcov_type *, unsigned) ATTRIBUTE_HIDDEN;
 
 /* Optimum number of gcov_unsigned_t's read from or written to disk.  */
 #define GCOV_BLOCK_SIZE (1 << 10)
-#define MAXFILENAME     (200)
+#define MAXFILENAME     (100)
 
 GCOV_LINKAGE struct gcov_var
 {
