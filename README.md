@@ -25,7 +25,7 @@ Those to lines will compile the library and leave in the directory ```build``` a
 
 The application to be tested for coverage should first be configured. For that the following should be defined
 
-```
+```c
 #define CONFIGURE_HAS_OWN_INIT_TASK_TABLE
 
 #define CONFIGURE_INIT_TASK_NAME            rtems_build_name( 'U', 'I', '1', ' ' )
